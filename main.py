@@ -6,8 +6,8 @@ import numpy as np
 import skimage.io as sio
 import skimage.transform as st
 
-import api
-import utils.write as uw
+import PRNet.api as api
+import PRNet.utils.write as uw
 
 prn = api.PRN(is_dlib=True)
 
