@@ -4,7 +4,7 @@ from skimage.io import imread, imsave
 from skimage.transform import estimate_transform, warp
 from time import time
 
-from predictor import PosPrediction
+from .predictor import PosPrediction
 
 class PRN:
     ''' Joint 3D Face Reconstruction and Dense Alignment with Position Map Regression Network
